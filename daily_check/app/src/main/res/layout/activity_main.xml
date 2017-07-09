@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.litain23.daily_check.MainActivity"
+    android:layout_gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/temp"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text="온도">
+            </TextView>
+            <TextView
+                android:id="@+id/temperature"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/humid"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text="습도">
+            </TextView>
+
+            <TextView
+                android:id="@+id/humidity"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cit"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text="도시">
+            </TextView>
+
+            <TextView
+                android:id="@+id/city"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/weat"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text="날씨">
+            </TextView>
+
+            <TextView
+                android:id="@+id/weather"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
