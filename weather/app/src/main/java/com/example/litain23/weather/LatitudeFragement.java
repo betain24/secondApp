@@ -15,10 +15,10 @@ import android.widget.ListView;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class FragementLati extends Fragment {
+public class LatitudeFragement extends Fragment {
 
 
-    public FragementLati() {
+    public LatitudeFragement() {
         // Required empty public constructor
     }
 
