@@ -16,13 +16,13 @@
         android:id="@+id/fragment_lati"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:name="com.example.litain23.weather.FragementLati"/>
+        android:name="com.example.litain23.weather.LatitudeFragement"/>
 
     <fragment
         android:id="@+id/fragment_longti"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:name="com.example.litain23.weather.FragmentLongti"/>
+        android:name="com.example.litain23.weather.LongtitudeFragment"/>
 
     <LinearLayout
         android:layout_width="match_parent"

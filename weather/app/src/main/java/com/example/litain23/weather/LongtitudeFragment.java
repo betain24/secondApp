@@ -15,10 +15,10 @@ import android.widget.ListView;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class FragmentLongti extends Fragment {
+public class LongtitudeFragment extends Fragment {
 
 
-    public FragmentLongti() {
+    public LongtitudeFragment() {
         // Required empty public constructor
     }
 
@@ -28,6 +28,7 @@ public class FragmentLongti extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         //return inflater.inflate(R.layout.fragment_longti, container, false);
+
         String[] listLongti = getResources().getStringArray(R.array.list_value_longti);
         View view = inflater.inflate(R.layout.fragment_longti, null);
         ArrayAdapter adapter = new ArrayAdapter(getActivity(), android.R.layout.simple_list_item_1, listLongti);
@@ -39,6 +40,8 @@ public class FragmentLongti extends Fragment {
 
         return view;
     }
+
+
     AdapterView.OnItemClickListener onItemClickListener = new AdapterView.OnItemClickListener(){
         @Override
         public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {

@@ -1,10 +1,6 @@
 package com.example.litain23.weather;
 
 import android.content.Intent;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTabHost;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -27,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     Button.OnClickListener onClickListener = new Button.OnClickListener(){
         public void onClick(View view){
 
-            Intent intent = new Intent(MainActivity.this, FindWeather.class);
+            Intent intent = new Intent(MainActivity.this, FindWeatherActivity.class);
             EditText editLati = (EditText)findViewById(R.id.edittext_lati);
             EditText editLongti = (EditText)findViewById(R.id.edittext_longti);
 
